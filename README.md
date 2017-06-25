@@ -3,6 +3,8 @@ Capo is a car pool app (Under construction)
 
 So far it uses shared preferences to maintain a session.
 
+for images : kindly, browse the issue.
+
 Intended to incorporate the following features:
   1. work via Volley framework to fetch 'ride' details online.
   2. Be able to track user's locations and present them on the map dynamically!
