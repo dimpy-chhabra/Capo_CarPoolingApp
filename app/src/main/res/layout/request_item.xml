@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10sp"
+    android:padding="10sp"
+    android:layout_height="wrap_content"
+    android:fadingEdgeLength="10sp"
+    android:background="@drawable/item_bg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:padding="10sp"
+        android:weightSum="1.5">
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/statusImageView"
+            android:src="@drawable/statnew"/>
+
+        <TextView
+            android:padding="16sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:id="@+id/pricetag"
+            android:background="@drawable/item_bg"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Rs. 10,000"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="40sp"
+            android:gravity="right"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:text="Here we insert a shape with a to and from kind of diagram"
+            android:id="@+id/textViewDirections" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.18"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:text="Seats"
+            android:id="@+id/Seats" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:text="Time"
+            android:id="@+id/StartingTime" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:text="Extras"
+            android:id="@+id/Extra" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="............................................................................................................................................................"
+        android:layout_height="wrap_content"
+        android:maxLines="1"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.2"
+        android:layout_marginTop="10sp">
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/fpp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:foregroundGravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Rider's Namw"
+            android:textStyle="italic"
+            android:drawableRight="@drawable/name"
+            android:id="@+id/textViewRiderName"
+            android:padding="10sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:foregroundGravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Rider's College"
+            android:textStyle="italic"
+            android:layout_below="@id/textViewRiderName"
+            android:gravity="center_vertical"
+            android:padding="10sp"
+            android:drawableRight="@drawable/college"
+            android:id="@+id/textViewRiderCollege"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Rider's Number"
+            android:layout_alignParentBottom="true"
+            android:foregroundGravity="center_vertical"
+            android:padding="10sp"
+            android:textStyle="italic"
+            android:layout_below="@id/textViewRiderCollege"
+            android:drawableRight="@drawable/phone"
+            android:id="@+id/textViewRiderNumber"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

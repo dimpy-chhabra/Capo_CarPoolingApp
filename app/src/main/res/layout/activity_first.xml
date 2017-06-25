@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.dimpychhabra.capo.FirstActivity">
+
+
+    <ImageButton
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/dummy_button"
+        android:background="@color/colorPrimaryDark"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/car"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Welcome to Capo! \nClick on the car to continue"/>
+
+
+</RelativeLayout>

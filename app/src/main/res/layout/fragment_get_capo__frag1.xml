@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sheep"
+    android:orientation="vertical"
+    android:padding="26dp"
+    tools:context="com.example.dimpychhabra.capo.letsCapo_Frag1">
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="8"
+        android:foregroundGravity="fill_horizontal"
+        android:gravity="bottom"
+        android:hint="Where are you going to? \n please enter : DTU or IGDTU"
+        android:padding="16sp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_effect"
+        android:gravity="bottom"
+        android:padding="16sp"
+        android:text="Leggo!"
+        android:textSize="20sp" />
+</LinearLayout>

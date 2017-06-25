@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dimpychhabra.capo">
+    <!--
+    *Project : CAPO, fully created by
+    * Dimpy Chhabra, IGDTUW, BTech, IT
+    * Second year (as of 2017)
+    * Expected Class of 2019
+    * Please do not circulate as your own
+    * Criticism is appreciated to work on memory leaks and bugs
+    * Contact Info : Find me on Linked in : linkedin.com/in/dimpy-chhabra
+    *
+    -->
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/car"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/car"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FirstActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyProfile"
+            android:label="@string/title_activity_my_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LetsCapo"
+            android:label="@string/title_activity_lets_capo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GetCapo"
+            android:label="@string/title_activity_get_capo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Track"
+            android:label="@string/title_activity_track"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginBaseActivity" />
+    </application>
+
+</manifest>

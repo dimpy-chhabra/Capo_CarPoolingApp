@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ripple_effect"
+    tools:context="com.example.dimpychhabra.capo.getCapo_Frag2">
+    <ProgressBar
+        android:id="@+id/progressNewsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listViewFoundRid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/des"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorLightPrimaryColor"
+        android:text=" Sorry Man! No one is going your way!"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Continue!"
+        android:textSize="30sp" />
+
+</LinearLayout>
